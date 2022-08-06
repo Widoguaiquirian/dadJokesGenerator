@@ -1,0 +1,94 @@
+/* Created XX April XXXX
+Last update April XX:  */
+
+:root {
+  --zI-1: 1;
+  --zI-2: 2;
+  --zI-3: 3;
+  --zI-4: 4;
+  --zI-5: 5;
+
+  /* --z-nav: var(--zI-2); 100 */
+}
+
+* {
+  box-sizing: border-box;
+}
+
+/*--- General ---*/
+
+html {
+  font-size: 62.5%;
+  background: linear-gradient(rgb(86, 88, 95), pink);
+}
+
+body {
+  font-size: 1.6rem;
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  line-height: 1.6;
+  color: #w;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  overflow: hidden;
+  justify-content: center;
+  align-items: center;
+}
+
+ul,
+li {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: rgb(46, 46, 46);
+  font-size: 1.6rem;
+}
+
+.container {
+  width: 450px;
+  padding: 2rem;
+  text-align: center;
+  background-color: white;
+  border-radius: 20px;
+  max-width: 90%;
+}
+
+.container h3 {
+  font-size: 3rem;
+  text-transform: uppercase;
+  color: rgba(68, 68, 68, 0.786);
+  margin: 0 0 2rem 0;
+}
+
+.joke {
+  padding: 1rem 2rem;
+  margin: 2rem 0;
+  border-radius: 20px;
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 2rem;
+}
+
+.btn {
+  width: 80%;
+  background-color: rgba(129, 19, 129, 0.696);
+  padding: 1rem 0;
+  border-radius: 10px;
+  outline: none;
+  color: white;
+  font-size: 2.6rem;
+  cursor: pointer;
+  border: none;
+  box-shadow: 1px 2px 3px rgba(0, 0, 0, 0.45);
+}
+
+.btn:active {
+  transform: scale(0.98);
+}
